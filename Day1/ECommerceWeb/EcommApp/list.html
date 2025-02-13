@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TFL Store - Product List</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+        <script src="modules/app.js"></script>
+        <script src="modules/controllers/loginController.js"></script>
+        <script src="modules/controllers/productController.js"></script>
+    </head>
+    <body ng-app="Lakhan">
+        <div ng-controller="LoginController">           
+            <div ng-if="loggedIn">
+                <p>Welcome, {{loggedInUser}}!</p>
+                <button ng-click="logout()">Logout</button>
+                <h1>Product List</h1>
+                <div ng-controller="ProductController">
+                    <div ng-repeat="product in products">
+                        <h3>{{product.name}}</h3>
+                        <img ng-src="assets/images/{{product.image}}" alt="{{product.name}}" width="150">
+                        <p>Price: ₹{{product.price}}</p>
+                    </div>
+                </div>
+            </div>
+            <div ng-if="!loggedIn">
+                <p>Please log in to view products.</p>
+                <a href="login.html">Go to Login Page</a>
+            </div>
+        </div>
+    </body>
+</html>
