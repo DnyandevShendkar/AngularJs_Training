@@ -1,0 +1,67 @@
+<!-- <div class="login-container" ng-controller="AuthController as vm">
+       
+        <div class="login-left">
+            <h2>Login</h2>
+            <p>Get access to your Orders, Wishlist, and Recommendations</p>
+            <img src="../../assets/headshop.jpg" width="300" height="300">
+        </div>
+
+        
+        <div class="login-right">
+            <form ng-submit="vm.login()">
+                <label>Username / Email</label>
+                <input type="text" class="input-field" ng-model="vm.user.email" required>
+
+                <label>Password</label>
+                <input type="password" class="input-field" ng-model="vm.user.password" required>
+
+                <button type="submit" class="login-btn">Login</button>
+            </form>
+
+            <p class="error-message">{{ vm.message }}</p>
+
+            <p class="register-link">New to the site? <a href="#!/register">Create an account</a></p>
+        </div>
+    </div>  -->
+    <div class="container-fluid login-container" ng-controller="AuthController as vm">
+        <div class="row justify-content-center align-items-center">
+            <!-- Left Section -->
+            <div class="col-md-6 login-left">
+                <h2 class="text-center">Login</h2>
+                <p class="text-center">Get access to your Orders, Wishlist, and Recommendations</p>
+                <div class="text-center">
+                    <img src="https://th.bing.com/th/id/OIP.TBfnMfhff7YqifMN-CXuxwHaHa?rs=1&pid=ImgDetMain" class="img-fluid" alt="Shop Image" />
+                </div>
+            </div>
+    
+            <!-- Right Section -->
+            <div class="col-md-6 login-right">
+                <div class="login-form-container">
+                    <form ng-submit="vm.login()">
+                        <div class="form-group">
+                            <label for="email">Username / Email</label>
+                            <input type="text" class="form-control input-field" id="email" ng-model="vm.user.email" required placeholder="Enter your email or username">
+                        </div>
+    
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control input-field" id="password" ng-model="vm.user.password" required placeholder="Enter your password">
+                        </div>
+    
+                        <button type="submit" class="btn btn-primary btn-block login-btn">Login</button>
+                    </form>
+    
+                    <div class="text-center mt-3">
+                        <p class="error-message text-danger">{{ vm.message }}</p>
+                        <p class="register-link">New to the site? <a href="#!/register">Create an account</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+ 
+
+
+
+

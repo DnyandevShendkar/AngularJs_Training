@@ -1,0 +1,50 @@
+[
+    {
+        "id": "01",
+        "name": "Dell XPS 13",
+        "type": "Electronics",
+        "subtype": "Laptop",
+        "price": 129999,
+        "imgSrc": "https://th.bing.com/th/id/OIP.0jhL2o_M2IP5-M9DowQT5wHaFj?rs=1&pid=ImgDetMain"
+    },
+    {
+        "id": "02",
+        "name": "Apple MacBook Pro 16",
+        "type": "Electronics",
+        "subtype": "Laptop",
+        "price": 239999,
+        "imgSrc": "https://images.idgesg.net/images/article/2018/07/dsc01444-2-100764610-large.3x2.jpg"
+    },
+    {
+        "id": "03",
+        "name": "HP Spectre x360",
+        "type": "Electronics",
+        "subtype": "Laptop",
+        "price": 149999,
+        "imgSrc": "https://i.pcmag.com/imagery/reviews/00uwiwERhM15aoADGVjjUUy-3.jpg"
+    },
+    {
+        "id": "04",
+        "name": "Lenovo ThinkPad X1 Carbon",
+        "type": "Electronics",
+        "subtype": "Laptop",
+        "price": 134999,
+        "imgSrc": "https://th.bing.com/th/id/OIP.LD6hkI3vXMed18hpr3O7vwHaFj?rs=1&pid=ImgDetMain"
+    },
+    {
+        "id": "05",
+        "name": "Microsoft Surface Laptop 5",
+        "type": "Electronics",
+        "subtype": "Laptop",
+        "price": 139999,
+        "imgSrc": "https://media.cnn.com/api/v1/images/stellar/prod/surface-laptop-5-review-cnnu-1.jpg?c=16x9&q=h_833,w_1480,c_fill"
+    },
+    {
+        "id": "06",
+        "name": "Asus ROG Zephyrus G14",
+        "type": "Electronics",
+        "subtype": "Laptop",
+        "price": 169999,
+        "imgSrc": "https://microless.com/cdn/products/c7581effbc1728fc2e529294f6cd892d-hi.jpg"
+    }
+]
